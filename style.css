@@ -1,0 +1,42 @@
+body {
+    background: #f9f8ef;
+    font-family: Arial, sans-serif;
+}
+
+.bg-orange {
+    background-color: #e27557;
+}
+
+.text-green {
+    color: #1d5c4b;
+}
+
+.product-card {
+    border: none;
+    border-radius: 12px;
+    background-color: #f3eada;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.btn-add {
+    background-color: #e27557;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn-add:hover {
+    background-color: #c85e40;
+}
+
+.price {
+    color: #1d5c4b;
+    font-size: 18px;
+}
